@@ -8,6 +8,11 @@
   background: rgba(255, 113, 67, 0.27);
   padding: 38px 0 47px;
 }
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .container {
   max-width: 1070px;
   margin: 0 auto;
@@ -90,6 +95,7 @@
   border: none;
   transition: 500ms;
 }
+
 .footer {
   background: rgba(255, 113, 67, 0.27);
   padding: 65px 0 60px;
