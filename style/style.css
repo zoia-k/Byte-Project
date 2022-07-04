@@ -8,7 +8,9 @@
   background: rgba(255, 113, 67, 0.27);
   padding: 38px 0 47px;
 }
-.header-flex {
+.header-flex,
+.footer-flex,
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +97,9 @@
   border: none;
   transition: 500ms;
 }
-
+.about {
+  margin: 104px 185px 85px 179px;
+}
 .footer {
   background: rgba(255, 113, 67, 0.27);
   padding: 65px 0 60px;
